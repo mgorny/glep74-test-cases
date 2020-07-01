@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure prepare unpack
+DEPEND=>=dev-libs/glib-2.26.0 gnutls? ( >=net-libs/gnutls-2.12.0 ) netlink? ( >=dev-libs/libnl-3.1 ) zlib? ( sys-libs/zlib ) app-text/docbook-sgml-dtd:4.5 app-text/docbook-sgml-utils
+DESCRIPTION=Userland client/server for kernel network block device
+EAPI=7
+HOMEPAGE=http://nbd.sourceforge.net/
+IUSE=debug gnutls netlink zlib
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=>=dev-libs/glib-2.26.0 gnutls? ( >=net-libs/gnutls-2.12.0 ) netlink? ( >=dev-libs/libnl-3.1 ) zlib? ( sys-libs/zlib )
+SLOT=0
+_eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=5a7d9bdeb683b1c36f802a2c04a5e283

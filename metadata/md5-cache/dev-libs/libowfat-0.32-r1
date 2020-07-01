@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install setup
+DEPEND=diet? ( >=dev-libs/dietlibc-0.33_pre20090721 ) >=sys-apps/sed-4
+DESCRIPTION=reimplement libdjb - excellent libraries from Dan Bernstein
+EAPI=7
+HOMEPAGE=https://www.fefe.de/libowfat/
+IUSE=diet
+KEYWORDS=amd64 hppa sparc x86
+LICENSE=GPL-2
+RDEPEND=diet? ( >=dev-libs/dietlibc-0.33_pre20090721 )
+SLOT=0
+SRC_URI=https://www.fefe.de/libowfat/libowfat-0.32.tar.xz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=0e0c90dfcc3da7d04bf67e526039e8af

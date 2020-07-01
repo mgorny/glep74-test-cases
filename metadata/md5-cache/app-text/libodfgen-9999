@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig doc? ( app-doc/doxygen ) >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install prepare unpack
+DEPEND=dev-libs/librevenge
+DESCRIPTION=Library to generate ODF documents from libwpd and libwpg
+EAPI=7
+HOMEPAGE=http://libwpd.sourceforge.net/
+IUSE=doc
+LICENSE=|| ( LGPL-2.1 MPL-2.0 )
+PROPERTIES=live
+RDEPEND=dev-libs/librevenge
+SLOT=0
+_eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=08b9b14b7b842b6fc2ab615d08a90fb4

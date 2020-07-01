@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=Bash Screenshot Information Tool
+EAPI=7
+HOMEPAGE=https://github.com/KittyKatt/screenFetch
+IUSE=curl X
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=curl? ( net-misc/curl ) X? ( media-gfx/scrot x11-apps/xdpyinfo )
+SLOT=0
+_eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
+_md5_=f684ea26ad08b92e40bb13999d29ea58

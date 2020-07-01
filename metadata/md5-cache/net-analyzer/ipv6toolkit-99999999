@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=net-libs/libpcap[ipv6(+)]
+DESCRIPTION=Set of IPv6 security/trouble-shooting tools to send arbitrary IPv6-based packets
+EAPI=7
+HOMEPAGE=https://www.si6networks.com/tools/ipv6toolkit/
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=net-libs/libpcap[ipv6(+)] sys-apps/hwids
+SLOT=0
+_eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=e2d9113ee14783694a5e157e3aa0bf32

@@ -1,0 +1,14 @@
+BDEPEND=virtual/pkgconfig nls? ( dev-util/intltool ) >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=configure prepare
+DEPEND=audiofile? ( media-libs/audiofile:= ) mad? ( media-libs/libmad:= )
+DESCRIPTION=Audio file volume normalizer
+EAPI=7
+HOMEPAGE=http://normalize.nongnu.org/
+IUSE=audiofile mad nls
+KEYWORDS=amd64 ppc ppc64 sparc x86
+LICENSE=GPL-2
+RDEPEND=audiofile? ( media-libs/audiofile:= ) mad? ( media-libs/libmad:= )
+SLOT=0
+SRC_URI=https://savannah.nongnu.org/download/normalize/normalize-0.7.7.tar.bz2 https://dev.gentoo.org/~radhermit/distfiles/normalize-0.7.7-m4.patch.gz
+_eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=7e4f3b78c770ae20eba61813f3a7af00

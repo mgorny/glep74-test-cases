@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install postinst
+DEPEND=media-libs/alsa-lib sci-libs/fftw:3.0 virtual/jack
+DESCRIPTION=Software convolution engine for applying long FIR filters
+EAPI=7
+HOMEPAGE=https://www.ludd.ltu.se/~torger/brutefir.html
+KEYWORDS=amd64 ~ppc x86
+LICENSE=GPL-2
+RDEPEND=media-libs/alsa-lib sci-libs/fftw:3.0 virtual/jack
+SLOT=0
+SRC_URI=https://www.ludd.ltu.se/~torger/files/brutefir-1.0k.tar.gz
+_eclasses_=multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=cb315dfc2f5d847afe092c90b3cae245

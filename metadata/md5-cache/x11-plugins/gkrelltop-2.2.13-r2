@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile configure install postinst
+DEPEND=app-admin/gkrellm:2[X] dev-libs/glib:2 x11-libs/gtk+:2 virtual/pkgconfig
+DESCRIPTION=a GKrellM2 plugin which displays the top three processes
+EAPI=6
+HOMEPAGE=https://sourceforge.net/projects/gkrelltop
+IUSE=X
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+RDEPEND=app-admin/gkrellm:2[X] dev-libs/glib:2 x11-libs/gtk+:2
+SLOT=0
+SRC_URI=mirror://sourceforge/gkrelltop/gkrelltop_2.2.13.orig.tar.gz
+_eclasses_=gkrellm-plugin	c01023a3c28bc24f50c00ae019e8861e	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=99fc6f90a872ff25e1c156b6f4e5b388

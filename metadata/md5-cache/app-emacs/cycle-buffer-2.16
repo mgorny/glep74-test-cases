@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEPEND=>=app-editors/emacs-23.1:*
+DESCRIPTION=Select buffer by cycling through
+EAPI=6
+HOMEPAGE=https://www.emacswiki.org/emacs/cycle-buffer.el
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=>=app-editors/emacs-23.1:*
+SLOT=0
+SRC_URI=https://github.com/gavv/distfiles/raw/master/cycle-buffer-2.16.el.xz
+_eclasses_=eapi7-ver	f9ec87e93172b25ce65a85303dc06964	elisp	00840e1f4eb277c757dbfa5abf73c4c7	elisp-common	504a3383c45504fde86b00426619a709
+_md5_=fba97e86a9b234e1f601a7ab8c34c249

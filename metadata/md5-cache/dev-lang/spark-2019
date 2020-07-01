@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install prepare setup
+DEPEND=dev-ada/gnatcoll-core[ada_target_gnat_2019(-)?,-ada_target_gnat_2016(-),-ada_target_gnat_2017(-),-ada_target_gnat_2018(-),shared] sci-mathematics/alt-ergo sci-mathematics/why3-for-spark || ( >=dev-lang/python-2.7.5-r2:2.7 ) dev-ada/gprbuild[ada_target_gnat_2019(-)?,-ada_target_gnat_2016(-),-ada_target_gnat_2017(-),-ada_target_gnat_2018(-)]
+DESCRIPTION=Software development for high-reliability applications.
+EAPI=7
+HOMEPAGE=http://libre.adacore.com
+IUSE=ada_target_gnat_2019 -ada_target_gnat_2016 -ada_target_gnat_2017 -ada_target_gnat_2018
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=dev-ada/gnatcoll-core[ada_target_gnat_2019(-)?,-ada_target_gnat_2016(-),-ada_target_gnat_2017(-),-ada_target_gnat_2018(-),shared] sci-mathematics/alt-ergo sci-mathematics/why3-for-spark
+REQUIRED_USE=ada_target_gnat_2019
+SLOT=0
+SRC_URI=http://mirrors.cdn.adacore.com/art/5cdf912431e87a8f1c967d51 -> spark-2019-20190517-19665-src.tar.gz http://mirrors.cdn.adacore.com/art/5cdf865331e87aa2cdf16b49 -> gnat-2019-20190517-18C94-src.tar.gz
+_eclasses_=ada	9205d12ceb057a9282bea2a773e7c681	multilib	2477ebe553d3e4d2c606191fe6c33602	multiprocessing	cac3169468f893670dac3e7cb940e045	python-any-r1	c26f95a5042de003dc58bef955e41c88	python-utils-r1	ace0a9a129fcfeaae542c0d15c07f36a	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=ae98dc0a0004373d8d0a340d1208f012

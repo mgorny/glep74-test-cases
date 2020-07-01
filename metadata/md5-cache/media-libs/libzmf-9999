@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install prepare unpack
+DEPEND=dev-libs/icu:= dev-libs/librevenge media-libs/libpng:0= sys-libs/zlib dev-libs/boost doc? ( app-doc/doxygen ) test? ( dev-util/cppunit ) >=dev-vcs/git-1.8.2.1[curl] >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=Library for parsing Zoner Callisto/Draw documents
+EAPI=6
+HOMEPAGE=https://wiki.documentfoundation.org/DLP/Libraries/libzmf
+IUSE=debug doc test tools
+LICENSE=MPL-2.0
+PROPERTIES=live
+RDEPEND=dev-libs/icu:= dev-libs/librevenge media-libs/libpng:0= sys-libs/zlib
+RESTRICT=!test? ( test )
+SLOT=0
+_eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=160823f87ce5e44aeeb37f9601ef4381

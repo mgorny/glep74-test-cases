@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DEPEND=!<games-engines/exult-9999 app-arch/unzip
+DESCRIPTION=Sound data for games-engines/exult
+EAPI=6
+HOMEPAGE=http://exult.sourceforge.net/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://sourceforge/exult/exult_audio.zip
+_md5_=0b9722a3b5e71f8c50becff190a86465

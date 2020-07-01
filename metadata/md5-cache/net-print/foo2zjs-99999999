@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare test unpack
+DEPEND=net-print/cups net-print/foomatic-db-engine >=net-print/cups-filters-1.0.43-r1[foomatic] virtual/udev app-arch/unzip app-editors/vim net-misc/wget sys-apps/ed sys-devel/bc test? ( sys-process/time )
+DESCRIPTION=Support for printing to ZjStream-based printers
+EAPI=7
+HOMEPAGE=http://foo2zjs.rkkda.com/
+IUSE=test
+LICENSE=GPL-2
+RDEPEND=net-print/cups net-print/foomatic-db-engine >=net-print/cups-filters-1.0.43-r1[foomatic] virtual/udev
+RESTRICT=bindist !test? ( test )
+SLOT=0
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=dd5ccde4a4806756d1a8a67c4e83d3db

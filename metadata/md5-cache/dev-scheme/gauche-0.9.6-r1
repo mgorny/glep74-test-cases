@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install prepare test
+DEPEND=sys-libs/gdbm mbedtls? ( net-libs/mbedtls:= ) test? ( !libressl? ( dev-libs/openssl:0 ) libressl? ( dev-libs/libressl:0 ) ) >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=A Unix system friendly Scheme Interpreter
+EAPI=6
+HOMEPAGE=http://practical-scheme.net/gauche/
+IUSE=ipv6 libressl mbedtls test
+KEYWORDS=~alpha amd64 ~ia64 ~ppc ~ppc64 ~sparc x86 ~amd64-linux ~x86-linux ~x86-macos
+LICENSE=BSD
+RDEPEND=sys-libs/gdbm mbedtls? ( net-libs/mbedtls:= )
+RESTRICT=!test? ( test )
+SLOT=0/0.9
+SRC_URI=mirror://sourceforge/gauche/Gauche-0.9.6.tgz
+_eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	eapi7-ver	f9ec87e93172b25ce65a85303dc06964	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=a0567b2ce4960b9251d2e2699b41bd04

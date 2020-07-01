@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install postinst prepare setup
+DEPEND=module_config_rpcconfig? ( dev-libs/expat dev-libs/xmlrpc-c[abyss,cxx] ) module_config_sgconfig? ( dev-libs/expat ) module_store_firebird? ( dev-db/firebird ) module_store_mysql? ( dev-db/mysql-connector-c:0= ) module_store_postgres? ( dev-db/postgresql:= ) sgconf? ( dev-libs/expat ) sgconf_xml? ( dev-libs/expat )
+DESCRIPTION=Billing system for small home and office networks
+EAPI=7
+HOMEPAGE=http://stg.dp.ua/
+IUSE=sgconv radius rscriptd sgauth sgconf sgconf_xml +stargazer debug module_auth_always_online module_auth_internet_access module_auth_freeradius module_capture_ipq module_capture_ether module_capture_netflow module_config_sgconfig module_config_rpcconfig module_other_ping module_other_smux module_other_remote_script +module_store_files module_store_firebird module_store_mysql module_store_postgres kernel_linux
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=module_config_rpcconfig? ( dev-libs/expat dev-libs/xmlrpc-c[abyss,cxx] ) module_config_sgconfig? ( dev-libs/expat ) module_store_firebird? ( dev-db/firebird ) module_store_mysql? ( dev-db/mysql-connector-c:0= ) module_store_postgres? ( dev-db/postgresql:= ) sgconf? ( dev-libs/expat ) sgconf_xml? ( dev-libs/expat )
+REQUIRED_USE=stargazer? ( ^^ ( module_store_files module_store_firebird module_store_mysql module_store_postgres ) )
+SLOT=0
+SRC_URI=http://stg.dp.ua/download/server/2.408/stg-2.408.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	flag-o-matic	f1194291b9a1baca337c1c89b5f7f365	linux-info	c90a203b1c14cfa77bd3e37a0e96c955	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	user	7b7fc6ec5eb1c1eee55b0609f01e7362	user-info	a2abd4e2f4c3b9b06d64bf1329359a02
+_md5_=0befc2476f5550432a1a624b35f39ca2

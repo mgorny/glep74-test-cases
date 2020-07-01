@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEPEND=>=app-editors/emacs-23.1:*
+DESCRIPTION=An improved Go mode for emacs
+EAPI=6
+HOMEPAGE=https://github.com/dominikh/go-mode.el
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=>=app-editors/emacs-23.1:*
+SLOT=0
+SRC_URI=https://github.com/dominikh/go-mode.el/archive/v1.5.0.tar.gz -> go-mode-1.5.0.tar.gz
+_eclasses_=eapi7-ver	f9ec87e93172b25ce65a85303dc06964	elisp	00840e1f4eb277c757dbfa5abf73c4c7	elisp-common	504a3383c45504fde86b00426619a709
+_md5_=1db9b6722e79d0fb313dd9baeddba9a9
